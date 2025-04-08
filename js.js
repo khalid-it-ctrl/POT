@@ -154,7 +154,8 @@ const users = {
         { name: "Meeting", grade: 5 },
         { name: "Meeting", grade: 30 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 10 }
+    reports: [{ name: "week 2", grade: 10 }]
     },
     "moaz.mo@pot": {
       password: "2421221",
@@ -549,8 +550,8 @@ const users = {
       ],
       reports: [{ name: "week 1", grade: 10 }]
     },
-    "d": {
-      password: "a",
+    "admin": {
+      password: "pot",
       role: "doctor"
     }
   };
