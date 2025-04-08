@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>POT</title>
+  <link rel="icon" type="image/png" href="logoo.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="css.css">
+<script src="js.js"></script>
+<body>
+  <div class="login-container" id="login">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+  </div>
+  <div class="main" id="main" style="display: none;">
+    <div class="sidebar" id="sidebar">
+      <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+      <div class="profile" id="userProfile">
+        <img id="userImage" src="">
+        <h4 id="userName"></h4>
+        <p id="userBio"></p>
+      </div>
+      <a href="#" onclick="showSection('home')">Home</a>
+      <a href="#" onclick="showSection('tasks')">Tasks</a>
+      <a href="#" onclick="showSection('report')">Report</a>
+      <a href="#" onclick="showSection('rate')">Rate</a>
+    </div>
+    <div class="content">
+      <div id="homeSection" class="section active">
+        <h2>Path Of Talent أهلًا وسهلًا بكم في🎉🚀</h2>
+        <pre>
+
+          يسعدنا انضمامكم إلى رحلتناالمليئة بالإبداع والتحدي! 🤩✨
+          
+           هنا، نحن أكثر من مجرد فريق، نحن عائلةواحدة نعمل معًا لتحقيق النجاح والتألق
+
+            استعدوا لتجربة فريدة مليئةبالتعلم، الإنجاز، وروح الفريق! 💪🔥
+            
+             مرحبًا بكم بيننا، رحلتنا لن تكتمل إلا بكم! 🚀🎯
+
+      </pre>
+      </div>
+      <div id="tasksSection" class="section"></div>
+      <div id="reportSection" class="section"></div>
+      <div id="rateSection" class="section"></div>
+    </div>
+  </div>
+  <div class="doctor-view" id="doctor" style="display:none;">
+    <h2>Doctor Dashboard</h2>
+    <div id="studentList"></div>
+  </div>
+</body>
+</html>
