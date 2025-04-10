@@ -274,7 +274,7 @@ const users = {
       role: "student",
       name: "Khalid Samir Mohamed Mohamed",
       image: "kh.jpg",
-      bio: "بتاع الأحلام 🌙",
+      bio: "10/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
