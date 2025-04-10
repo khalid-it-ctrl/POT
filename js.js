@@ -4,7 +4,7 @@ const users = {
       role: "student",
       name: "Abdullah Samir Bashir Abdel Samad",
       image: "samir.jpg",
-      bio: "عامل من بنها 🙃",
+      bio: "10/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -24,7 +24,7 @@ const users = {
       role: "student",
       name: "Hanin Abdelkarim Mahmoud",
       image: "abdelkre.jpg",
-      bio: "باشا التأجيل ⏭️",
+      bio: "3/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -34,7 +34,7 @@ const users = {
         { name: "Meeting", grade: 20 }
       ],
       reports: [
-        { name: "week 1", grade: 10 }
+        { name: "week 1", grade: 3 }
       ]
     },
     "soma.fa@pot": {
@@ -42,7 +42,7 @@ const users = {
       role: "student",
       name: "Soma Fahmy Abdelhamid Abdelaziz Abdelmalek",
       image: "soma.jpg",
-      bio: "الهادي البادي 😶",
+      bio: "7/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -57,7 +57,7 @@ const users = {
         { name: "Ramadan Question", grade: 5 }
       ],
       reports: [
-        { name: "week 1", grade: 10 }
+        { name: "week 1", grade: 7 }
       ]
     },
     "hamada.ga@pot": {
@@ -65,7 +65,7 @@ const users = {
       role: "student",
       name: "Hamada Gaber Ragab Morsi Ahmed",
       image: "hmad.jpg",
-      bio: "ساكت بس شايفك 😌",
+      bio: "7/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -78,7 +78,7 @@ const users = {
         { name: "Ramadan Question", grade: 5 }
       ],
       reports: [
-        { name: "week 1", grade: 10 }
+        { name: "week 1", grade: 7 }
       ]
     },
     "mohamed.ab@pot": {
@@ -86,7 +86,7 @@ const users = {
       role: "student",
       name: "Mohamed Ayman Abouzeid Selim Abdelrahman",
       image: "abo.jpg",
-      bio: "بتاع كله ⚙️",
+      bio: "10/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -107,7 +107,7 @@ const users = {
       role: "student",
       name: "Donia Ahmed Mohamed Abdelrahman Korauim",
       image: "donia.jpg",
-      bio: "مطنش بس مركز 🙄",
+      bio: "2/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -119,14 +119,14 @@ const users = {
         { name: "Ramadan Question", grade: 5 },
         { name: "Ramadan Question", grade: 5 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 2 }]
     },
     "habiba.wa@pot": {
       password: "2420366",
       role: "student",
       name: "Habiba Walid Abdelkarim Atta",
       image: "hbib.jpg",
-      bio: "كتاب متحرك 📖",
+      bio: "10/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -146,7 +146,7 @@ const users = {
       role: "student",
       name: "Abdelrahman Atef Mohamed Ali",
       image: "zok.jpg",
-      bio: "الشبح 🕵️",
+      bio: "10/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 5 },
@@ -164,7 +164,7 @@ const users = {
       role: "student",
       name: "Moaz Mohamed Rafiq Farghaly",
       image: "moa.jpg",
-      bio: "أبو حجة جاهزة 🎭",
+      bio: "9/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -174,14 +174,14 @@ const users = {
         { name: "Meeting", grade: 5 },
         { name: "Meeting", grade: 60 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 9 }]
     },
     "rawan.ta@pot": {
       password: "2420464",
       role: "student",
       name: "Rawan Tarek Abbas Tolba Hennedy",
       image: "rewan.jpg",
-      bio: "ابو نظرية 🎓",
+      bio: "9/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -193,14 +193,14 @@ const users = {
         { name: "Ramadan Question", grade: 5 },
         { name: "Ramadan Question", grade: 5 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 9 }]
     },
     "mazin.mo@pot": {
       password: "2420947",
       role: "student",
       name: "Mazin Mohamed Anwar Hussein Abdelkhaleq",
       image: "maz.jpg",
-      bio: "المخطط الكبير 🗺️",
+      bio: "10/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -221,7 +221,7 @@ const users = {
       role: "student",
       name: "Hosni Mohamed Hosni Mohamed",
       image: "hos.jpg",
-      bio: "آخر واحد يخلص 🏁",
+      bio: "9/10",
       tasks: [
         { name: "ID Creation", grade: 4 },
         { name: "Meeting", grade: 2 },
@@ -232,14 +232,14 @@ const users = {
         { name: "Meeting", grade: 20 },
         { name: "Logo", grade: 20 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 9 }]
     },
     "fares.ma@pot": {
       password: "2420879",
       role: "student",
       name: "Fares Mahmoud Fathy Elsabbagh",
       image: "fares.jpg",
-      bio: "مزاجنجي بك 😑",
+      bio: "10/10",
       tasks: [
         { name: "Logo Creation", grade: 20 },
         { name: "Meeting", grade: 2 },
@@ -257,7 +257,7 @@ const users = {
       role: "student",
       name: "Doaa Khamis Abdelsamea Mohamed",
       image: "do.jpg",
-      bio: "مشاكس بس طيب 🤗",
+      bio: "9/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -267,7 +267,7 @@ const users = {
         { name: "Meeting", grade: 30 },
         { name: "Meeting", grade: 20 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 9 }]
     },
     "khalid@pot": {
       password: "2420403",
@@ -292,7 +292,7 @@ const users = {
       role: "student",
       name: "Hanin Hachem Ismail Abdeljalil",
       image: "hash.jpg",
-      bio: "ابو القفشات 😂",
+      bio: "2/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 5 },
@@ -301,14 +301,14 @@ const users = {
         { name: "Meeting", grade: 5 },
         { name: "Meeting", grade: 30 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 2 }]
     },
     "hamdy.ah@pot": {
       password: "2420385",
       role: "student",
       name: "Hamdy Ashraf Abdelkader Mousa",
       image: "ham.jpg",
-      bio: "الشيخ الحكيم 🦉",
+      bio: "10/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -328,7 +328,7 @@ const users = {
       role: "student",
       name: "Rizk Reda Abdelwahed Ali Gweida",
       image: "rez.jpg",
-      bio: "هيفوتك بمزاجه 😏",
+      bio: "10/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -345,7 +345,7 @@ const users = {
       role: "student",
       name: "eslam saed abdelglel",
       image: "esl.jpg",
-      bio: "آخر واحد يوصل ⏳",
+      bio: "7/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -354,14 +354,14 @@ const users = {
         { name: "Meeting", grade: 5 },
         { name: "Meeting", grade: 30 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 7 }]
     },
     "sief.al@pot": {
       password: "2420568",
       role: "student",
       name: "Seif El-Din Alaa Elsayed Abdel Latif Hassan",
       image: "sif.jpg",
-      bio: "دماغه متكلفة 🧐",
+      bio: "10/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -384,7 +384,7 @@ const users = {
       role: "student",
       name: "Mohamed Reda Abdelrasoul Mohamed",
       image: "red.jpg",
-      bio: "سرحان الدفعة 🤔",
+      bio: "2/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -393,14 +393,14 @@ const users = {
         { name: "Meeting", grade: 5 },
         { name: "Meeting", grade: 20 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 2 }]
     },
     "mohamed.ay@pot": {
       password: "2420981",
       role: "student",
       name: "Mohamed Ayman Abdelhamid Ibrahim Abouelnour",
       image: "borg.jpg",
-      bio: "معترض أفندي 🤨",
+      bio: "10/10",
       tasks: [
         { name: "Excused", grade: 0 },
         { name: "Excused", grade: 0 },
@@ -418,7 +418,7 @@ const users = {
       role: "student",
       name: "Abdelrahman Mohamed Allam",
       image: "all.jpg",
-      bio: "رايق بس خطير ☕",
+      bio: "9/10",
       tasks: [
         { name: "Excused", grade: 0 },
         { name: "Meeting", grade: 2 },
@@ -428,14 +428,14 @@ const users = {
         { name: "Ramdan Question", grade: 5 },
         { name: "Ramdan Question", grade: 5 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 9 }]
     },
     "abdullah.ho@pot": {
       password: "2421537",
       role: "student",
       name: "Abdullah Hosni Abdelmagid",
       image: "abd.jpg",
-      bio: "أول واحد يتحمس 🔥",
+      bio: "0/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Excused", grade: 0 },
@@ -443,14 +443,14 @@ const users = {
         { name: "Project Presentation", grade: 15 },
         { name: "Meeting", grade: 5 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 0 }]
     },
     "hanin.wa@pot": {
       password: "2420400",
       role: "student",
       name: "Hanin Walid Abdelkarim Atta",
       image: "wled.jpg",
-      bio: "😶الركن البعيد الهادى",
+      bio: "6/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -462,14 +462,14 @@ const users = {
         { name: "Ramadan Question", grade: 5 },
         { name: "Meeting", grade: 20 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 6 }]
     },
     "youssef.mo@pot": {
       password: "2421511",
       role: "student",
       name: "Youssef Mohamed Mohamed Abouzeid",
       image: "you.jpg",
-      bio: "غياب 👤",
+      bio: "9/10",
       tasks: [
         { name: "Excused", grade: 0 },
         { name: "Meeting", grade: 2 },
@@ -479,14 +479,14 @@ const users = {
         { name: "Meeting", grade: 20 },
         { name: "Meeting", grade: 20 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 9 }]
     },
     "ahmed.mo@pot": {
       password: "2420224",
       role: "student",
       name: "Ahmed Mohamed Ali Abou Elhmed Hreidy",
       image: "ahm.jpg",
-      bio: "ملك الافورة 😆",
+      bio: "10/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -502,7 +502,7 @@ const users = {
       role: "student",
       name: "Omar Tamer Ramzy",
       image: "omar.jpg",
-      bio: "سعد زغلول 🙃",
+      bio: "8/10",
       tasks: [
         { name: "Excused", grade: 0 },
         { name: "Meeting", grade: 2 },
@@ -512,14 +512,14 @@ const users = {
         { name: "Meeting", grade: 5 },
         { name: "Meeting", grade: 30 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 8 }]
     },
     "rahma.ah@pot": {
       password: "2420431",
       role: "student",
       name: "Rahma Ahmed Abdelmoneim Ahmed Elashqar",
       image: "rahma.al.jpg",
-      bio: "المكسوفة 😎",
+      bio: "9/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -533,14 +533,14 @@ const users = {
         { name: "Ramadan Question", grade: 5 },
         { name: "Meeting", grade: 20 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 9 }]
     },
     "rawy.mo@pot": {
       password: "2420427",
       role: "student",
       name: "Rawy Mohamed Rawy",
       image: "rawe.jpg",
-      bio: "نايم في العسل 😴",
+      bio: "6/10",
       tasks: [
         { name: "Excused", grade: 0 },
         { name: "Meeting", grade: 2 },
@@ -550,7 +550,7 @@ const users = {
         { name: "Ramadan Question", grade: 5 },
         { name: "Ramadan Question", grade: 10 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 6 }]
     },
     "doc": {
       password: "pot",
