@@ -328,16 +328,20 @@ const users = {
         { name: "Meeting", grade: 20 },
         { name: "Ramadan Question", grade: 5 },
         { name: "Ramadan Question", grade: 5 },
-        { name: "Meeting", grade: 20 }
+        { name: "Meeting", grade: 20 },
+          { name: "Team follow-up", grade: 20 },
+          
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 10 },
+               { name: "week 2", grade: 10 },
+               ]
     },
     "rizk.re@pot": {
       password: "2420446",
       role: "student",
       name: "Rizk Reda Abdelwahed Ali Gweida",
       image: "rez.jpg",
-      bio: "10/10",
+      bio: "9/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -347,14 +351,16 @@ const users = {
         { name: "Meeting", grade: 20 },
         { name: "Meeting", grade: 20 }
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 10 },
+               { name: "week 2", grade: 9 },
+               ]
     },
     "islam.as@pot": {
       password: "2420115",
       role: "student",
       name: "eslam saed abdelglel",
       image: "esl.jpg",
-      bio: "7/10",
+      bio: "6/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -363,7 +369,9 @@ const users = {
         { name: "Meeting", grade: 5 },
         { name: "Meeting", grade: 30 }
       ],
-      reports: [{ name: "week 1", grade: 7 }]
+      reports: [{ name: "week 1", grade: 7 },
+              { name: "week 2", grade: 6 }, 
+               ]
     },
     "sief.al@pot": {
       password: "2420568",
