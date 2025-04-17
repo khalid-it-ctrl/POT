@@ -16,7 +16,8 @@ const users = {
         { name: "Ramadan Question", grade: 5 }
       ],
       reports: [
-        { name: "week 1", grade: 10 }
+        { name: "week 1", grade: 10 },
+          { name: "week 2", grade: 10 },
       ]
     },
     "hanin.ab@pot": {
