@@ -66,7 +66,7 @@ const users = {
       role: "student",
       name: "Hamada Gaber Ragab Morsi Ahmed",
       image: "hmad.jpg",
-      bio: "7/10",
+      bio: "10/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -79,7 +79,8 @@ const users = {
         { name: "Ramadan Question", grade: 5 }
       ],
       reports: [
-        { name: "week 1", grade: 7 }
+        { name: "week 1", grade: 7 },
+          { name: "week 2", grade: 10 },
       ]
     },
     "mohamed.ab@pot": {
