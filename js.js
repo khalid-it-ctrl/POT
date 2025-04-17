@@ -471,14 +471,16 @@ const users = {
         { name: "Project Presentation", grade: 15 },
         { name: "Meeting", grade: 5 }
       ],
-      reports: [{ name: "week 1", grade: 0 }]
+      reports: [{ name: "week 1", grade: 0 },
+                { name: "week 2", grade: 0 }
+               ]
     },
     "hanin.wa@pot": {
       password: "2420400",
       role: "student",
       name: "Hanin Walid Abdelkarim Atta",
       image: "wled.jpg",
-      bio: "6/10",
+      bio: "10/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
@@ -490,7 +492,9 @@ const users = {
         { name: "Ramadan Question", grade: 5 },
         { name: "Meeting", grade: 20 }
       ],
-      reports: [{ name: "week 1", grade: 6 }]
+      reports: [{ name: "week 1", grade: 6 },
+               { name: "week 2", grade: 10 }
+               ]
     },
     "youssef.mo@pot": {
       password: "2421511",
@@ -573,7 +577,7 @@ const users = {
       role: "student",
       name: "Rawy Mohamed Rawy",
       image: "rawe.jpg",
-      bio: "6/10",
+      bio: "2/10",
       tasks: [
         { name: "Excused", grade: 0 },
         { name: "Meeting", grade: 2 },
@@ -583,7 +587,9 @@ const users = {
         { name: "Ramadan Question", grade: 5 },
         { name: "Ramadan Question", grade: 10 }
       ],
-      reports: [{ name: "week 1", grade: 6 }]
+      reports: [{ name: "week 1", grade: 6 },
+                { name: "week 2", grade: 2 }
+               ]
     },
     "doc": {
       password: "pot",
