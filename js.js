@@ -138,9 +138,12 @@ const users = {
         { name: "Ramadan Question", grade: 5 },
         { name: "Meeting", grade: 60 },
         { name: "Ramadan Question", grade: 5 },
-        { name: "Ramadan Question", grade: 5 }
+        { name: "Ramadan Question", grade: 5 },
+          { name: "Team follow-up ", grade: 30 },
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 10 },
+            { name: "week 2", grade: 10 },
+               ]
     },
     "abdelrahman.at@pot": {
       password: "2420713",
@@ -215,9 +218,12 @@ const users = {
         { name: "Meeting", grade: 5 },
         { name: "Meeting", grade: 60 },
         { name: "Meeting", grade: 20 },
-        { name: "Organizing Presentation", grade: 20 }
+        { name: "Organizing Presentation", grade: 20 },
+          { name: "Team follow-up ", grade: 30 },
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 10 },
+               { name: "week 2", grade: 10 },
+               ]
     },
     "hosni.mo@pot": {
       password: "2420380",
