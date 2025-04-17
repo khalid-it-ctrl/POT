@@ -20,7 +20,7 @@ const users = {
           { name: "week 2", grade: 10 },
       ]
     },
-    "hanin.ab@pot": {
+    "hanin.ab@pot*": {
       password: "2420394",
       role: "student",
       name: "Hanin Abdelkarim Mahmoud",
@@ -104,7 +104,7 @@ const users = {
         { name: "week 1", grade: 10 }
       ]
     },
-    "donia.ah@pot": {
+    "donia.ah@pot*": {
       password: "2420414",
       role: "student",
       name: "Donia Ahmed Mohamed Abdelrahman Korauim",
@@ -183,7 +183,7 @@ const users = {
                { name: "week 2", grade: 9 },
                ]
     },
-    "rawan.ta@pot": {
+    "rawan.ta@pot*": {
       password: "2420464",
       role: "student",
       name: "Rawan Tarek Abbas Tolba Hennedy",
@@ -262,7 +262,7 @@ const users = {
       ],
       reports: [{ name: "week 1", grade: 10 }]
     },
-    "doaa.kh@pot": {
+    "doaa.kh@pot*": {
       password: "2420410",
       role: "student",
       name: "Doaa Khamis Abdelsamea Mohamed",
@@ -297,7 +297,7 @@ const users = {
       ],
       reports: [{ name: "week 1", grade: 10 }]
     },
-    "hanin.ha@pot": {
+    "hanin.ha@pot*": {
       password: "2420399",
       role: "student",
       name: "Hanin Hachem Ismail Abdeljalil",
@@ -458,7 +458,7 @@ const users = {
                { name: "week 2", grade: 10 },
                 ]
     },
-    "abdullah.ho@pot": {
+    "abdullah.ho@pot*": {
       password: "2421537",
       role: "student",
       name: "Abdullah Hosni Abdelmagid",
@@ -551,7 +551,7 @@ const users = {
                 { name: "week 2", grade: 4 },
                ]
     },
-    "rahma.ah@pot": {
+    "rahma.ah@pot*": {
       password: "2420431",
       role: "student",
       name: "Rahma Ahmed Abdelmoneim Ahmed Elashqar",
