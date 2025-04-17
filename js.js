@@ -174,7 +174,9 @@ const users = {
         { name: "Meeting", grade: 5 },
         { name: "Meeting", grade: 60 }
       ],
-      reports: [{ name: "week 1", grade: 9 }]
+      reports: [{ name: "week 1", grade: 9 },
+               { name: "week 2", grade: 9 },
+               ]
     },
     "rawan.ta@pot": {
       password: "2420464",
@@ -375,9 +377,12 @@ const users = {
         { name: "Meeting", grade: 60 },
         { name: "Organizing Presentation", grade: 20 },
         { name: "Meeting", grade: 20 },
-        { name: "Ramdan Question", grade: 10 }
+        { name: "Ramdan Question", grade: 10 },
+          { name: "Team follow-up", grade: 30 },
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 10 },
+              { name: "week 2", grade: 10 }, 
+               ]
     },
     "mohamed.re@pot": {
       password: "2421025",
@@ -409,7 +414,7 @@ const users = {
         { name: "Task", grade: 15 },
         { name: "Meeting", grade: 5 },
         { name: "Meeting", grade: 60 },
-        { name: "Meeting", grade: 20 }
+        { name: "Meeting", grade: 20 },
       ],
       reports: [{ name: "week 1", grade: 10 }]
     },
@@ -418,7 +423,7 @@ const users = {
       role: "student",
       name: "Abdelrahman Mohamed Allam",
       image: "all.jpg",
-      bio: "9/10",
+      bio: "10/10",
       tasks: [
         { name: "Excused", grade: 0 },
         { name: "Meeting", grade: 2 },
@@ -426,9 +431,11 @@ const users = {
         { name: "Task", grade: 15 },
         { name: "Meeting", grade: 5 },
         { name: "Ramdan Question", grade: 5 },
-        { name: "Ramdan Question", grade: 5 }
+        { name: "Ramdan Question", grade: 5 },
       ],
-      reports: [{ name: "week 1", grade: 9 }]
+      reports: [{ name: "week 1", grade: 9 },
+               { name: "week 2", grade: 10 },
+                ]
     },
     "abdullah.ho@pot": {
       password: "2421537",
@@ -493,9 +500,12 @@ const users = {
         { name: "Project Presentation", grade: 11 },
         { name: "Meeting", grade: 5 },
         { name: "Project Presentation", grade: 10 },
-        { name: "Meeting", grade: 20 }
+        { name: "Meeting", grade: 20 },
+          { name: "Team follow-up ", grade: 20 },
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 10 },
+               { name: "week 2", grade: 10 },
+               ]
     },
     "omar.ta@pot": {
       password: "2420821",
