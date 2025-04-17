@@ -38,7 +38,7 @@ const users = {
         { name: "week 1", grade: 3 }
       ]
     },
-    "soma.fa@pot": {
+    "soma.fa@pot*": {
       password: "2420563",
       role: "student",
       name: "Soma Fahmy Abdelhamid Abdelaziz Abdelmalek",
@@ -410,7 +410,7 @@ const users = {
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 5 },
-        { name: "Project Presentation", grade: 10 },
+        { name: "Project Presentational ", grade: 10 },
         { name: "Meeting", grade: 5 },
         { name: "Meeting", grade: 20 },
       ],
@@ -501,7 +501,7 @@ const users = {
       role: "student",
       name: "Youssef Mohamed Mohamed Abouzeid",
       image: "you.jpg",
-      bio: "9/10",
+      bio: "10/10",
       tasks: [
         { name: "Excused", grade: 0 },
         { name: "Meeting", grade: 2 },
@@ -511,7 +511,9 @@ const users = {
         { name: "Meeting", grade: 20 },
         { name: "Meeting", grade: 20 }
       ],
-      reports: [{ name: "week 1", grade: 9 }]
+      reports: [{ name: "week 1", grade: 9 },
+               { name: "week 2", grade: 10 }
+               ]
     },
     "ahmed.mo@pot": {
       password: "2420224",
