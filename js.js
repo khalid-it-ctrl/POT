@@ -396,16 +396,18 @@ const users = {
       role: "student",
       name: "Mohamed Reda Abdelrasoul Mohamed",
       image: "red.jpg",
-      bio: "2/10",
+      bio: "5/10",
       tasks: [
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 2 },
         { name: "Meeting", grade: 5 },
         { name: "Project Presentation", grade: 10 },
         { name: "Meeting", grade: 5 },
-        { name: "Meeting", grade: 20 }
+        { name: "Meeting", grade: 20 },
       ],
-      reports: [{ name: "week 1", grade: 2 }]
+      reports: [{ name: "week 1", grade: 2 },
+               { name: "week 2", grade: 5 },
+               ]
     },
     "mohamed.ay@pot": {
       password: "2420981",
@@ -422,8 +424,11 @@ const users = {
         { name: "Meeting", grade: 5 },
         { name: "Meeting", grade: 60 },
         { name: "Meeting", grade: 20 },
+          { name: "Team follow-up ", grade: 10 },
       ],
-      reports: [{ name: "week 1", grade: 10 }]
+      reports: [{ name: "week 1", grade: 10 },
+                { name: "week 2", grade: 10 },
+               ]
     },
     "abdelrahman.al@pot": {
       password: "2420725",
@@ -519,7 +524,7 @@ const users = {
       role: "student",
       name: "Omar Tamer Ramzy",
       image: "omar.jpg",
-      bio: "8/10",
+      bio: "4/10",
       tasks: [
         { name: "Excused", grade: 0 },
         { name: "Meeting", grade: 2 },
@@ -527,9 +532,11 @@ const users = {
         { name: "Meeting", grade: 5 },
         { name: "Task", grade: 10 },
         { name: "Meeting", grade: 5 },
-        { name: "Meeting", grade: 30 }
+        { name: "Meeting", grade: 30 },
       ],
-      reports: [{ name: "week 1", grade: 8 }]
+      reports: [{ name: "week 1", grade: 2 },
+                { name: "week 2", grade: 4 },
+               ]
     },
     "rahma.ah@pot": {
       password: "2420431",
