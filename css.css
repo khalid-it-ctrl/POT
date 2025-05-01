@@ -252,7 +252,7 @@ pre {
 .video-container video {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 20px;
   width: 50%;
   height: 80%;
 }
