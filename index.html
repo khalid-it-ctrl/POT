@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,9 +10,11 @@
 </head>
 <link rel="stylesheet" href="css.css">
 <script src="js.js"></script>
+
 <body>
   <div class="login-container" id="login">
     <h2>Login</h2>
+    <h4>Log in to see what's new and exclusive !!</h4>
     <input type="text" id="username" placeholder="Username" />
     <input type="password" id="password" placeholder="Password" />
     <button onclick="login()">Login</button>
@@ -26,13 +29,24 @@
       </div>
       <a href="#" onclick="showSection('home')">Home</a>
       <a href="#" onclick="showSection('tasks')">Tasks</a>
-      <a href="#" onclick="showSection('report')">Report</a>
+      <a href="#" onclick="showSection('report')">Meeting</a>
       <a href="#" onclick="showSection('rate')">Rate</a>
     </div>
     <div class="content">
       <div id="homeSection" class="section active">
         <h2>Welcome🎉🚀</h2>
         <p>Welcome Back</p>
+        <pre>
+          “في كل ضحكة، تكمن بداية قصة تميز… لأن 
+          Path of Talent 
+          هو المكان الذي يُصنع فيه الإبداع من لحظات السعادة. 😄✨”</pre>
+        <div class="video-container">
+          <video controls>
+            <source src="big.mp4" type="video/mp4">
+            المتصفح لا يدعم تشغيل الفيديو.
+          </video>
+        </div>
+        
       </div>
       <div id="tasksSection" class="section"></div>
       <div id="reportSection" class="section"></div>
@@ -44,4 +58,5 @@
     <div id="studentList"></div>
   </div>
 </body>
+
 </html>
