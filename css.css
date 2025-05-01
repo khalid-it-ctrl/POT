@@ -1,238 +1,262 @@
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(hhh.jpg);
+
+  color: #333;
+
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 40px 30px;
+  background: #726c6c50;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 1s ease;
+}
+
+.login-container h2 {
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #222c20;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  background: #f9f9f9;
+  transition: 0.3s;
+}
+
+.login-container input:focus {
+  outline: none;
+  border-color: #636859;
+  background: #fff;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #25c23a, #0056b3);
+  border: none;
+  color: rgba(255, 255, 255, 0.856);
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.login-container button:hover {
+  background: linear-gradient(135deg, #99af90, #003f7f);
+}
+
+/* Main layout */
+.main {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  background: #707883;
+  color: white;
+  transition: width 0.3s;
+  overflow: hidden;
+}
+
+.sidebar.collapsed {
+  width: 70px;
+}
+
+.sidebar .toggle-btn {
+  background: none;
+  color: white;
+  font-size: 24px;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar .profile {
+  text-align: center;
+  padding: 25px 10px;
+}
+
+.sidebar .profile img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.sidebar .profile h4,
+.sidebar .profile p {
+  margin-top: 10px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 18px 25px;
+  transition: background 0.3s;
+  font-size: 16px;
+}
+
+.sidebar a:hover {
+  background: #343457;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+  background: #cfb5b5;
+  background-image: url(photo_5780852902280154695_y.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+th,
+td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background: #007bff;
+  color: rgb(228, 212, 212);
+}
+
+.total {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  margin-top: 30px;
+  height: 250px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bar {
+  width: 40px;
+  background: #007bff;
+  color: rgb(224, 209, 209);
+  text-align: center;
+  font-size: 14px;
+  border-radius: 6px 6px 0 0;
+}
+
+.doctor-view {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.student-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: rgb(235, 228, 236);
+  padding: 18px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.student-card:hover {
+  background: #e8e9e7;
+}
+
+.student-card img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+pre {
+  color: rgb(58, 24, 90);
+  font-size: 8px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
   }
 
-  body {
-    font-family: 'Poppins', sans-serif;
-    background: #adc2df;
-    color: #333;
-
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+}
 
-  .login-container {
-    max-width: 400px;
-    margin: 100px auto;
-    padding: 40px 30px;
-    background: #fff;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    animation: fadeIn 1s ease;
-  }
-
-  .login-container h2 {
-    margin-bottom: 25px;
-    font-weight: 600;
-    color: #007bff;
-  }
-
-  .login-container input {
-    width: 100%;
-    padding: 14px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    font-size: 15px;
-    background: #f9f9f9;
-    transition: 0.3s;
-  }
-
-  .login-container input:focus {
-    outline: none;
-    border-color: #007bff;
-    background: #fff;
-  }
-
-  .login-container button {
-    width: 100%;
-    padding: 14px;
-    background: linear-gradient(135deg, #007bff, #0056b3);
-    border: none;
-    color: white;
-    font-size: 16px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.3s;
-    font-weight: 600;
-    margin-top: 10px;
-  }
-
-  .login-container button:hover {
-    background: linear-gradient(135deg, #0056b3, #003f7f);
-  }
-
-  /* Main layout */
-  .main {
-    display: flex;
-    min-height: 100vh;
-  }
-
-  .sidebar {
-    width: 260px;
-    background: #1c1c30;
-    color: white;
-    transition: width 0.3s;
-    overflow: hidden;
-  }
-
-  .sidebar.collapsed {
-    width: 70px;
-  }
-
-  .sidebar .toggle-btn {
-    background: none;
-    color: white;
-    font-size: 24px;
-    border: none;
-    padding: 20px;
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-  }
-
-  .sidebar .profile {
-    text-align: center;
-    padding: 25px 10px;
-  }
-
-  .sidebar .profile img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    border: 3px solid #fff;
-  }
-
-  .sidebar .profile h4,
-  .sidebar .profile p {
-    margin-top: 10px;
-    font-size: 14px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .sidebar a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 18px 25px;
-    transition: background 0.3s;
-    font-size: 16px;
-  }
-
-  .sidebar a:hover {
-    background: #343457;
-  }
-
-  .content {
-    flex: 1;
-    padding: 40px;
-    background: #cfb5b5;
-    background-image: url(12345.jpg);
-
-  }
-
-  .section {
-    display: none;
-  }
-
-  .section.active {
-    display: block;
-  }
-
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    background: white;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
-  }
-
-  th,
-  td {
-    padding: 14px;
-    text-align: center;
-    border-bottom: 1px solid #eee;
-  }
-
-  th {
-    background: #007bff;
-    color: rgb(228, 212, 212);
-  }
-
-  .total {
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 18px;
-    color: #333;
-  }
-
-  .chart {
-    display: flex;
-    align-items: flex-end;
-    gap: 12px;
-    margin-top: 30px;
-    height: 250px;
-    background: white;
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .bar {
-    width: 40px;
-    background: #007bff;
-    color: rgb(224, 209, 209);
-    text-align: center;
-    font-size: 14px;
-    border-radius: 6px 6px 0 0;
-  }
-
-  .doctor-view {
-    max-width: 800px;
-    margin: 40px auto;
-  }
-
-  .student-card {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    background: rgb(235, 228, 236);
-    padding: 18px;
-    margin-bottom: 12px;
-    border-radius: 12px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-    cursor: pointer;
-    transition: 0.3s;
-  }
-
-  .student-card:hover {
-    background: #e8e9e7;
-  }
-
-  .student-card img {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-  }
-
-  pre {
-    color: rgb(58, 24, 90);
-    font-size: 8px;
-  }
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+pre{
+  color: #222c20;
+  font-size: medium;
+}
