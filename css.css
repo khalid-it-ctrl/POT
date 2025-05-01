@@ -250,11 +250,11 @@ pre {
 }
 
 .video-container video {
-  position: absolute;
+  
   top: 0;
   right: 20px;
-  width: 50%;
-  height: 80%;
+  width: 20%;
+  height: 200%;
 }
 pre{
   color: #222c20;
